@@ -5,7 +5,7 @@
 ## 프로젝트 링크
 다음은 제가 만든 **HTML 포트폴리오**를 볼 수 있는 링크입니다:
 
-[나의 포트폴리오 보기](https://yourusername.github.io/portfolio-site/새%20텍스트%20문서.html)
+[나의 포트폴리오 보기](file:///C:/Users/82102/Desktop/portfolio-site/%EC%83%88%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EB%AC%B8%EC%84%9C.html)
 
 ## 기술 스택
 - HTML, CSS, JavaScript
