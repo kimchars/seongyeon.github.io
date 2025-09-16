@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개발자 포트폴리오</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1100px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .project ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project ul li {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .profile-info {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .profile-info div {
+            flex: 1;
+        }
+
+        .profile-info h2 {
+            font-size: 1.6rem;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>개발자 포트폴리오</h1>
+        <p>지금 이 순간, 제가 지금까지 만든 것들을 소개합니다!</p>
+    </header>
+
+    <!-- 프로필 정보 -->
+    <section id="profile">
+        <div class="profile-info">
+            <div>
+                <h2>안녕하세요! 저는 개발자    ㅎㅎ
+           김성연입니다.</h2>
+                <p>저는 *환경*과 관련된 문제를 해결하는 것을 좋아하는 **소프트웨어 개발자**입니다. 지속 가능한 기술을 활용해 **에너지 절약**이나 **자원 관리** 같은 분야에서 사회적 가치를 만들고자 합니다. 현재는 **스마트 기술**, **IoT**, 그리고 **빅데이터 분석**을 활용한 프로젝트들을 주로 다루고 있습니다.</p>
+            </div>
+            <div>
+                <h2>연락처</h2>
+                <p>이메일: <a href="mailto:ksy0922kh@gmail.com">ksy0922kh.email@example.com</a></p>
+                <p>GitHub: <a href="https://github.com/kimchars" target="_blank">https://github.com/chars</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/charchars" target="_blank">https://linkedin.com/in/charchars</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>주요 프로젝트</h2>
+        
+        <!-- 첫 번째 프로젝트: 스마트 에너지 절약 앱 -->
+        <div class="project">
+            <h3>실시간 에너지 모니터링 및 비용 최적화 앱</h3>
+            <p><strong>기술 스택:</strong> React, Node.js, Python, IoT (Arduino, Raspberry Pi), MongoDB, REST API</p>
+            <p>이 앱은 **전기**와 **가스** 사용량을 실시간으로 모니터링하고, **예상되는 전기세**와 **가스비**를 계산하여 사용자가 효율적으로 에너지를 관리할 수 있도록 돕는 스마트 앱입니다. 사용자는 실시간 데이터와 함께 **에너지 절약** 방안을 제시받으며, **알림** 기능을 통해 불필요한 소비를 줄일 수 있습니다.</p>
+        </div>
+
+        <!-- 두 번째 프로젝트: CCTV 연계 스마트 주차 관리 시스템 -->
+        <div class="project">
+            <h3>CCTV 연계 스마트 주차 관리 시스템</h3>
+            <p><strong>기술 스택:</strong> Python, OpenCV, React, Node.js, MongoDB, IoT (Raspberry Pi, CCTV), Tesseract (OCR)</p>
+            <p>이 시스템은 **CCTV 카메라**와 연계되어 주차 공간의 상태를 실시간으로 모니터링하고, **자동 번호판 인식** 기술을 활용하여 차량 출입을 관리하는 시스템입니다. 주차 공간 예약과 실시간 위치 파악, 출입 기록 관리 등을 통해 **스마트 주차 시스템**을 구현합니다. 이 시스템은 주차 공간을 보다 효율적으로 사용할 수 있게 도와주며, 안전한 주차 환경을 제공합니다.</p>
+        </div>
+
+    </section>
+
+    <section id="tech-stack">
+        <h2>기술 스택</h2>
+        <p>저는 다양한 최신 기술을 사용하여 프로젝트를 진행하고 있습니다.</p>
+        <ul>
+            <li><strong>프론트엔드:</strong> React를 사용하여 직관적인 사용자 인터페이스를 개발하고 있습니다.</li>
+            <li><strong>백엔드:</strong> Node.js와 Express로 API 서버를 구축하고 데이터 처리 로직을 담당하고 있습니다.</li>
+            <li><strong>데이터베이스:</strong> MongoDB를 사용하여 데이터를 효율적으로 관리하고 저장합니다.</li>
+            <li><strong>이미지 처리:</strong> OpenCV와 YOLO를 사용하여 **자동 번호판 인식** 및 **차량 감지** 기술을 구현했습니다.</li>
+            <li><strong>IoT:</strong> Raspberry Pi와 Arduino를 사용하여 **스마트 장치**와의 연동을 실현했습니다.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+
