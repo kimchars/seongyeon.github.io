@@ -9,7 +9,7 @@
 
 아래 링크를 클릭하시면 GitHub 저장소에 있는 `index.html` 파일을 웹에서 렌더링된 상태로 보실 수 있습니다:
 
-[포트폴리오 미리보기](https://htmlpreview.github.io/?https://github.com/kimchars/seongyeon.github.io/blob/main/index.html)
+[포트폴리오 미리보기](https://htmlpreview.github.io)
 
 > **🔍 참고:**  
 > 이 링크는 HTML 파일을 실제 웹 브라우저에서 렌더링된 모습으로 보여주는 서비스입니다.  
