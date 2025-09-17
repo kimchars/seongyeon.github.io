@@ -5,5 +5,6 @@
 ## 프로젝트 링크
 다음은 제가 만든 **포트폴리오 HTML 파일**을 볼 수 있는 링크입니다:
 
-[포트폴리오 사이트 링크]("C:\Users\82102\Desktop\index.html")
+[포트폴리오 사이트](https://kimchars.github.io)
+
 
