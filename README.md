@@ -5,4 +5,4 @@
 ## 프로젝트 링크
 다음은 제가 만든 **포트폴리오 HTML 파일**을 볼 수 있는 링크입니다:
 
-[나의 포트폴리오 보기](https://kimchars.github.io/portfolio-site/)
+[나의 포트폴리오 보기](file:///C:/Users/82102/Desktop/portfolio-site/%EC%83%88%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EB%AC%B8%EC%84%9C.html)
